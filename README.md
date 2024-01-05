@@ -1,4 +1,4 @@
-This is a Data Exploratory/Exploration(DE) Project using SQL. SQL Server is the platfrom used to perform the queries in this project. The project explores Covid-19 data. Two tables are used in this project; the "CovidDeaths" table and the "CovidVaccinations" table.  The two tables were extracted from the Covid-19 data from the "Our World in Data" website (https://ourworldindata.org/covid-deaths),and then modified and seperated in two tables using Microsoft Excel.
+This is a Data Exploratory/Exploration(DE) Project using SQL. SQL Server is the platfrom used to perform the queries in this project. The project explores Covid-19 data. Two tables are used in this project; the "CovidDeaths" table and the "CovidVaccinations" table.  The two tables were extracted from the Covid-19 data from the "Our World in Data" website (https://ourworldindata.org/covid-deaths) ,and then modified and seperated in two tables using Microsoft Excel.
 
 Some of the columns in the two tables are :
 
@@ -142,4 +142,50 @@ To get countries with least cases with only non-null values, we have to filter o
 
 
 
-**Insight:** The result shows that the top 10 countries with most Covid-19 deaths are the United States wit 106611210 Brazil 60047815 Mexico 36622615 India 36578144 United Kingdom 25219149 Italy 22409670 France 19603382 Spain 16767799 Russia 15069275 Iran 13528093
+**Insight:** The result shows that the top 10 countries with most Covid-19 deaths are the United States wit 106,611,210 deaths; Brazil with 60,047,815; Mexico with 36,622,615; India with 36,578,144; United Kingdom with 25,219,149; Italy with 22,409,670; France with 19,603,382; Spain with 16,767,799; Russia with 15,069,275; Iran with 13,528,093.
+
+
+
+
+**7. Death Percentage.**
+
+<img width="872" alt="Screenshot 2024-01-05 034129" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/71a1053c-5d8e-45ca-a865-61e0c1be8881">
+
+
+
+
+
+This shows the daily death percentage(total_deaths/total_cases) per country along the total cases and total deaths.
+
+
+
+
+**8. Dates when the firsts Covid-19 cases and deaths were detected in the world.**
+
+**8.1. First Covid-19 cases.**
+
+
+<img width="872" alt="First Covid Case" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/dd46992e-fbd7-4694-8d23-abb163749210">
+
+
+
+
+
+**Insight:** The result shows that the firsts Covid-19 cases were detected on January the 22nd 2020 in South Korea(1), Taiwan(1), United States(1), Japan(2), Thailand(4) and in China(548)
+
+
+
+
+
+**8.2. First Covid-19 deaths.**
+
+<img width="872" alt="First Covid Death" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/c8794b92-b102-4b8c-946a-4dfd2433c828">
+
+
+
+
+
+**Insight:**
+
+
+
