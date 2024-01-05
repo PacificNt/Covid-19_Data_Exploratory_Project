@@ -22,6 +22,7 @@ Here are some of the queries made in this project with the insight  extracted fr
 **1. Tables Check**
 
 
+
 <img width="768" alt="CovidDeath" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/876e8a5d-a27a-4f19-ac1e-cfe3cfdc4c19">
 
 
@@ -36,7 +37,17 @@ Here are some of the queries made in this project with the insight  extracted fr
 
 
 
+
+
+
+
+
+
+
+
 This is just to check if the two tables were loaded properly.
+
+
 
 
 
@@ -47,7 +58,13 @@ This is just to check if the two tables were loaded properly.
 
 **2. Data Type Check**
 
+
+
 <img width="766" alt="Data Types Check" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/2b3c2b12-bdc0-47c2-878b-f3f03aebfa0c">
+
+
+
+
 
 
 
@@ -58,7 +75,19 @@ The data type can also be checked through the pane on the left side of the query
 
 
 
+
+
+
+
+
+
+
 <img width="960" alt="Data Types pane" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/e94c6edd-cc9a-4c1c-bec0-a7ea76b757a8">
+
+
+
+
+
 
 
 
@@ -66,7 +95,15 @@ The data type can also be checked through the pane on the left side of the query
 
 **3. Number of entries.**
 
+
+
 <img width="765" alt="Number of Entries" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/5d3df504-1ce6-4028-8d22-141c472faaa2">
+
+
+
+
+
+
 
 
 
@@ -75,9 +112,24 @@ The data type can also be checked through the pane on the left side of the query
 
 
 
+
+
+
+
+
+
+
 **4. Timeframe.**
 
+
+
 <img width="764" alt="Timeframe" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/30aa5152-b7e9-46cd-8d3f-151c168cd62c">
+
+
+
+
+
+
 
 
 
@@ -87,12 +139,27 @@ The data type can also be checked through the pane on the left side of the query
 
 
 
+
+
+
+
+
+
 **5. Countries with most Covid-19 cases and deaths.**
+
+
 
 **5.1. Most cases**
 
 
+
 <img width="871" alt="Countries with most cases" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/c72f1abb-9a42-444f-ae8b-cc61fb0aaf89">
+
+
+
+
+
+
 
 
 
@@ -103,9 +170,22 @@ The data type can also be checked through the pane on the left side of the query
 
 
 
+
+
+
+
+
 **5.2. Least cases.**
 
+
+
 <img width="871" alt="Countries with least case" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/cf8351e9-5475-4748-a20d-ba74a21ff744">
+
+
+
+
+
+
 
 
 
@@ -117,7 +197,12 @@ The data type can also be checked through the pane on the left side of the query
 
 
 
+
+
+
+
 To get countries with least cases with only non-null values, we have to filter out the null values. That can be done the following way :
+
 
 
 
@@ -125,7 +210,15 @@ To get countries with least cases with only non-null values, we have to filter o
 **5.2.1. Non-Null least cases.**
 
 
+
 <img width="872" alt="Screenshot 2024-01-05 031255" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/eb1c58a6-c0ef-43b8-93ef-49caf9361278">
+
+
+
+
+
+
+
 
 
 
@@ -134,9 +227,22 @@ To get countries with least cases with only non-null values, we have to filter o
 
 
 
+
+
+
+
+
+
 **6. Countries with most deaths.**
 
+
+
 <img width="872" alt="Countries with most death" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/9cd48cc9-8640-4f65-8f48-9f65e3fe47c1">
+
+
+
+
+
 
 
 
@@ -147,9 +253,20 @@ To get countries with least cases with only non-null values, we have to filter o
 
 
 
+
+
+
+
+
+
 **7. Death Percentage.**
 
+
+
 <img width="872" alt="Screenshot 2024-01-05 034129" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/71a1053c-5d8e-45ca-a865-61e0c1be8881">
+
+
+
 
 
 
@@ -160,12 +277,25 @@ This shows the daily death percentage(total_deaths/total_cases) per country alon
 
 
 
+
+
+
+
+
+
 **8. Dates when the firsts Covid-19 cases and deaths were detected in the world.**
+
+
 
 **8.1. First Covid-19 cases.**
 
 
+
 <img width="872" alt="First Covid Case" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/dd46992e-fbd7-4694-8d23-abb163749210">
+
+
+
+
 
 
 
@@ -177,7 +307,14 @@ This shows the daily death percentage(total_deaths/total_cases) per country alon
 
 
 
+
+
+
+
+
 **8.2. First Covid-19 deaths.**
+
+
 
 <img width="872" alt="First Covid Death" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/c8794b92-b102-4b8c-946a-4dfd2433c828">
 
@@ -185,7 +322,95 @@ This shows the daily death percentage(total_deaths/total_cases) per country alon
 
 
 
-**Insight:**
+
+
+
+
+
+**Insight:**  The result shows that the first few death cases were all registered in China - from the 22nd of January 2020(with 17 cases) to the 1st of Febuary 2020(259 cases). It's only until the 2nd of Febuary where deaths cases were registered in a country other than China(Phillipines with 1 death case).
+
+
+
+
+
+
+
+
+
+
+**8.2.1. Dates when the firt cases and deaths occurred in South Africa.**
+
+
+
+<img width="872" alt="Screenshot 2024-01-05 040709" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/db8c4603-7f28-4cf5-9ea6-75dc792b5da4">
+
+
+
+
+
+
+
+
+
+**Insight:** The result shows that the first Covid-19 case in South Africa was detected on March the 5th,2020 and the first death was registered on March the 27th, 2020.
+
+
+
+
+
+
+
+
+
+**9. Infection Percentage in South Africa.**
+
+
+
+<img width="874" alt="Infection Percent SA" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/d57cf5b2-5395-4fc5-8b09-2f74ee18c6e9">
+
+
+
+
+
+
+
+
+
+
+**Insight:** The result shows the daily infection percentage ordered from the highest to the lowest. From it we can see that the highest infection percentage in South Africa was registered on the 31st pf April 2021
+
+
+
+
+
+
+
+
+
+**10. Continents with highest death counts.**
+
+
+
+<img width="873" alt="Death Count Continent" src="https://github.com/PacificNt/PortfolioProjects/assets/112112663/734030af-7de2-4a44-90eb-7a91dad39bb1">
+
+
+
+
+
+
+
+
+
+
+**Insight:**  The result shows that Europe had the highest deaths with 160,813,747 deaths followed by North America with 153,596,231 deaths, then South America with 105,595,385 deaths, then Asia with 87,116,891 deaths, Africa with 19,064,924 and finally Oceania 256,504 deaths.
+
+
+
+
+
+
+_**Reminder:**_  As mentionned earlier, these are just some of the queries made in this project, the see all the queries, please check the SQL Code file(named "Covid-19_Project").
+
 
 
 
