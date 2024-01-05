@@ -16,7 +16,7 @@ To see the names of all the columns, please check the folder "files" to check te
 **Note:** The data contained in the two tables are slightly diffeent from the data that can be downladed currently from the "Our World in Data" website because the two tables were created with data downloaded on the website in 2021.
 
 
-Here are some of the queries made in this project with the insight  extracted from them (To see all the queries, please check the "Covid-19_Proeject") :
+Here are some of the queries made in this project with the insight  extracted from them (To see all the queries, please check the "Covid-19_Project") :
 
 
 **1. Tables Check**
