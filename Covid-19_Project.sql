@@ -107,7 +107,7 @@ ORDER BY 1,2
 
 -- Date when the first covid case was detected in the world
 SELECT 
-    MIN(CASE WHEN total_cases > 0 THEN date END) AS FirstCaseDate,
+    MIN(CASE WHEN total_cases > 0 THEN Cast(date as date) END) AS FirstCaseDate,
     location,
     total_cases
 FROM CovidDeaths
